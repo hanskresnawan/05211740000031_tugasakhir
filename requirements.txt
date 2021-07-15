@@ -5,5 +5,4 @@ seaborn
 matplotlib
 scipy
 sklearn
-hashlib
 sqlite3
