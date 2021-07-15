@@ -1,0 +1,13 @@
+streamlit
+pandas
+os
+sys
+io
+numpy
+glob
+seaborn
+matplotlib
+scipy
+sklearn
+hashlib
+sqlite3
