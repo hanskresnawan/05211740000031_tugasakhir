@@ -462,9 +462,10 @@ def main():
             hashed_pswd = make_hashes(password)
 
             result = login_user(username,check_hashes(password,hashed_pswd))
-            isRole = get_role(username)[0][0]
-            st.success(isRole)
+            
             if result:
+                isRole = get_role(username)[0][0]
+                st.success(isRole)
                 if isRole == "Dokter":
                     temp_profile=view_all_users()
                     temp_profile=pd.DataFrame(temp_profile)
