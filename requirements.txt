@@ -1,8 +1,5 @@
 streamlit
 pandas
-os
-sys
-io
 numpy
 glob
 seaborn
